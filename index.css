@@ -87,3 +87,29 @@
     color: #fff;
     margin-top: 1rem;
 }
+.play-ground{
+    display: none;
+}
+#start-game-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+    margin-top: 3%;
+    gap: 15px;
+  }
+  #start-game-view input {
+    border-radius: 5px;
+    outline: none;
+    padding: 2px;
+    font-size: 23px;
+  }
+  .btn-start-game{
+    border: 2px solid white;
+    padding: 1% 2%;
+    border-radius: 10px;
+    margin-top: 2%;
+    cursor: pointer;
+  }
